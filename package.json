@@ -1,0 +1,42 @@
+{
+  "name": "devbot",
+  "version": "0.0.2",
+  "description": "This bot was Developed for the Purpose of having a Discord Bot Framework Standard for Developers to develop off of for Projects.",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "Discord",
+    "Bioblaze",
+    "Bot",
+    "Payne",
+    "IndieDev",
+    "GameDev",
+    "AppDev"
+  ],
+  "author": {
+    "name": "Bioblaze Payne",
+    "email": "BioblazePayne@gmail.com",
+    "url": "https://twitter.com/BioblazePayne"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bioblaze/Devbot"
+  },
+  "bugs": {
+    "url": "https://github.com/Bioblaze/Devbot/issues"
+  },
+  "analyze": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "discord.io": "^2.4.2",
+    "require-all": "^2.1.0"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": false,
+  "main": "bot.js"
+}
