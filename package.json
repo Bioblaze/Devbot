@@ -1,6 +1,6 @@
 {
   "name": "devbot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This bot was Developed for the Purpose of having a Discord Bot Framework Standard for Developers to develop off of for Projects.",
   "keywords": [
     "OpenShift",
@@ -16,7 +16,7 @@
   "author": {
     "name": "Bioblaze Payne",
     "email": "BioblazePayne@gmail.com",
-    "url": "https://twitter.com/BioblazePayne"
+    "url": "https://www.linkedin.com/in/bioblazepayne"
   },
   "repository": {
     "type": "git",
@@ -32,8 +32,16 @@
     "npm": ">= 1.0.0"
   },
   "dependencies": {
+    "body-parser": "^1.16.0",
+    "crypto": "0.0.3",
     "discord.io": "^2.4.2",
-    "require-all": "^2.1.0"
+    "express": "^4.14.0",
+    "file-exists": "^2.0.0",
+    "jsonfile": "^2.4.0",
+    "request": "^2.79.0",
+    "require-all": "^2.1.0",
+    "semver": "^5.3.0",
+    "string-format": "^0.5.0"
   },
   "devDependencies": {},
   "bundleDependencies": [],
