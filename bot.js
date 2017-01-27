@@ -2,7 +2,11 @@
 'use strict';
 
 /*All Includes needed for the Bot Core*/
-var isfile = require('file-exists');
+var isfile = function(name) {
+  require('fs').exists(name, function(exists) {
+    return exists;
+  });
+};
 var jsonfile = require('jsonfile');
 var configfile = './config.json';
 
@@ -112,7 +116,7 @@ require("request").get(SYSTEM.NPM_URL, function (err, res, body) {
                 console.log("[INVALID WEBHOOK] Received a Invalid Gitlab Webhook.. Does someone have the Link?");
                 res.status(504).json({ success: false });
               } else {
-                Event.emit("webhook", "github", token, req.body);
+                Event.emit("webhook", "gitlab", token, req.body);
                 res.status(200).json({ success: true });
               }
             });
@@ -123,6 +127,5 @@ require("request").get(SYSTEM.NPM_URL, function (err, res, body) {
           }
         }
       });
-
     }
 });
