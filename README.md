@@ -15,6 +15,10 @@
                  ░                 ░         ░
 
 [![Discord chat](https://img.shields.io/badge/discord-join%20chat%20%E2%86%92-brightgreen.svg?style=flat)](https://discord.gg/T8uVhzU)
+[![license](https://img.shields.io/github/license/bioblaze/devbot.svg)](https://github.com/Bioblaze/Devbot/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/dt/devbot.svg)](https://www.npmjs.com/package/devbot)
+[![Twitter Follow](https://img.shields.io/twitter/follow/bioblazepayne.svg?style=social&label=Follow)](https://twitter.com/BioblazePayne)
+[![GitHub followers](https://img.shields.io/github/followers/bioblaze.svg?style=social&label=Follow)](https://github.com/Bioblaze)
 
 ---
 
